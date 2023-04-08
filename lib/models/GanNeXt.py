@@ -48,8 +48,8 @@ class UnetGenerator(nn.Module):
         skip=[]
         for i in range(self.depth):
             s,x=self.down[i](x)
-            #skip.append(self.skip[i](s))
-            skip.append(s)
+            skip.append(self.skip[i](s))
+            #skip.append(s)
         x=self.bottom(x)
         for i in range(self.depth):
             x=self.up[i](x,skip[self.depth-i-1])
