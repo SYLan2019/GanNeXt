@@ -31,7 +31,9 @@ To replicate the results in the paper for CIFAR10  dataset, run the following co
 
 ``` shell
 # CIFAR
-sh experiments/run_cifar.sh
+sh experiments/cifar.sh
+# STL10
+sh experiments/stl.sh
 ```
 
 ## 4. Training
