@@ -11,7 +11,7 @@ Anomaly detection refers to the process of detecting anomalous values in dataset
 
 1. First clone the repository
    ```
-   git clone https://github.com/samet-akcay/skip-ganomaly.git
+   git clone https://github.com/2020141461053/GanNeXt.git
    ```
 2. Create the virtual environment via conda
     ```
