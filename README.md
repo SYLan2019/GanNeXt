@@ -15,11 +15,11 @@ Anomaly detection refers to the process of detecting anomalous values in dataset
    ```
 2. Create the virtual environment via conda
     ```
-    conda create -n skipganomaly python=3.7
+    conda create -n gannext python=3.7
     ```
 3. Activate the virtual environment.
     ```
-    conda activate skipganomaly
+    conda activate gannext
     ```
 4. Install the dependencies.
    ```
