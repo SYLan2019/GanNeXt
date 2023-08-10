@@ -10,7 +10,7 @@ import functools
 from torch.optim import lr_scheduler
 from torch.nn import init
 import numpy as np
-from GanNeXt import UnetGenerator as GanNeXt
+from lib.models.GanNeXt import UnetGenerator as GanNeXt
 ##
 def weights_init(mod):
     """
