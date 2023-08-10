@@ -23,7 +23,7 @@ Anomaly detection refers to the process of detecting anomalous values in dataset
     ```
 4. Install the dependencies.
    ```
-   pip install --user --requirement requirements.txt
+   pip install -r --requirement requirements.txt
    ```
 
 ## 3. Experiment
